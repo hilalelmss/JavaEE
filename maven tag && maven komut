@@ -1,6 +1,6 @@
 # JavaEE
 
-***** Maven tag*****
+                          ***** Maven tag*****
 Project: Maven ‘in hangi versiyonları ve ayarları kullanacağını belirtir ve kök elemandır.
 
 Model Version: Maven versiyonunu belirtir.
@@ -20,7 +20,7 @@ Yazılması zorunlu değildir, sadece her yapılandırma sırasında kullanılma
 Build: Projemizin yapılandırma ayarlarını ve kullanacağımız eklentileri tanımlayabileceğimiz kısımdır.
 
 
-**** maven komutlar ****
+                            **** Maven komutlar ****
 clean: Projenin derlenmesi sırasında oluşan target klasörünün silinmesini sağlar.
 
 Validate: Projenin target dosyasını siler ve daha sonra hatalı kısımları tarar.
