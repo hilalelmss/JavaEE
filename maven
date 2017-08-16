@@ -1,0 +1,38 @@
+# JavaEE
+
+***** Maven tag*****
+Project: Maven ‘in hangi versiyonları ve ayarları kullanacağını belirtir ve kök elemandır.
+
+Model Version: Maven versiyonunu belirtir.
+
+Packaging: Projemizin paketleme türünü belirtir. EAR, WAR, JAR gibi değerler alabilir.
+
+Name: Projemizin adını belirtir.
+
+Url: Projemizi paylaşmak istediğimizde veya sunucuya göndermek istediğimizde buraya yazacağımız adrese gönderilir.
+
+Dependency: Projemizde kullanacağımız her bir kütüphane bir dependency yani bağımlılıktır. Her bir bağımlılığın bir proje çıktısı olduğunu
+varsayarsak sanırım içerisindeki groupId, artifactId ve version ‘un ne anlama geldiğini anlamış oluruz. 
+
+Scope: Bir bağımlılığın projenin hangi yapılandırmasında kullanılacağını belirtir. Test, Debug, Run gibi değerler alabilir. 
+Yazılması zorunlu değildir, sadece her yapılandırma sırasında kullanılmasını sağlamış oluruz.
+
+Build: Projemizin yapılandırma ayarlarını ve kullanacağımız eklentileri tanımlayabileceğimiz kısımdır.
+
+
+**** maven komutlar ****
+clean: Projenin derlenmesi sırasında oluşan target klasörünün silinmesini sağlar.
+
+Validate: Projenin target dosyasını siler ve daha sonra hatalı kısımları tarar.
+
+Compile: Projeyi clean ve validate eder, daha sonra derler.
+
+Test: Projeyi derler ve test sınıflarını çalıştırır.
+
+Package: Projeyi testlerini yapar ve eğer hata yoksa projeyi paketler.
+
+Verify: Projeyi paketler ve daha sonra bu paketlerin geçerliliğini kontrol eder.
+
+İnstall: Projeyi doğruladıktan sonra repository sunucusuna yükler.
+
+Deploy: Projeyi uygulama sunucusuna gönderir.
